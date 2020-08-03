@@ -1,0 +1,11 @@
+ appId: 1234
+ name: myApp
+ url: http://admin-demo.nopcommerce.com/login
+ loginInfo:
+   userName:
+    key: Email
+    value: admin@yourstore.com
+   password:
+    key: Password
+    value: admin
+   message: Dashboard / nopCommerce administration 

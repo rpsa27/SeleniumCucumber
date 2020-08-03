@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-01T21:04:00.635Z",
+        "line": 3,
+        "name": "Logo presence on OrangeHRM home page",
+        "description": "",
+        "id": "orangehrm-login;logo-presence-on-orangehrm-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3630877600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch chrome browser",
+            "match": {
+              "location": "com.example.rpsa.stepDefs.OrangeHRMSteps.i_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 654126200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open orange hrm homepage",
+            "match": {
+              "location": "com.example.rpsa.stepDefs.OrangeHRMSteps.i_open_orange_hrm_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73805300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify that the logo present on page",
+            "match": {
+              "location": "com.example.rpsa.stepDefs.OrangeHRMSteps.i_verify_that_the_logo_present_on_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 772708900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close browser",
+            "match": {
+              "location": "com.example.rpsa.stepDefs.OrangeHRMSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Login",
+    "description": "",
+    "id": "orangehrm-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OrangeHRM.feature",
+    "tags": []
+  }
+]
